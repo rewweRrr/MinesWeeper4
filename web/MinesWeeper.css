@@ -1,0 +1,169 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: small;
+    margin: 8px;
+}
+
+.unusedPanel {
+    height: 40px;
+    width: 40px;
+    background-color: pink;
+    border: 1px double #000000;
+    border-radius: 10px;
+    box-shadow: inset rgba(0, 0, 0, .6) 0 -3px 8px,
+    inset rgba(252, 255, 255, .7) 0 3px 8px,
+    rgba(0, 0, 0, .8) 0 3px 8px -3px;
+}
+
+.openPanel {
+    height: 40px;
+    width: 40px;
+    background-color: cornflowerblue;
+    border: 1px double #000000;
+    border-radius: 10px;
+    box-shadow: inset rgba(0, 0, 0, .6) 0 -3px 8px,
+    inset rgba(252, 255, 255, .7) 0 3px 8px,
+    rgba(0, 0, 0, .8) 0 3px 8px -3px;
+}
+
+.flag {
+    height: 40px;
+    width: 40px;
+    border: 1px double #000000;
+    background-color: pink;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: inset rgba(0, 0, 0, .6) 0 -3px 8px,
+    inset rgba(252, 255, 255, .7) 0 3px 8px,
+    rgba(0, 0, 0, .8) 0 3px 8px -3px;
+}
+
+.flag > div:before {
+    content: '';
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    height: 0;
+    width: 0;
+    border: 10px solid transparent;
+    border-left: 15px solid cornflowerblue;
+}
+
+.flag > div:after {
+    content: '';
+    position: absolute;
+    left: 15px;
+    bottom: 5px;
+    height: 28px;
+    border-left: 2px solid cornflowerblue;
+}
+
+.mine {
+    height: 40px;
+    width: 40px;
+    border: 1px double #000000;
+    background-color: cornflowerblue;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: inset rgba(0, 0, 0, .6) 0 -3px 8px,
+    inset rgba(252, 255, 255, .7) 0 3px 8px,
+    rgba(0, 0, 0, .8) 0 3px 8px -3px;
+}
+
+.mine:before {
+    content: '';
+    position: absolute;
+    left: 10px;
+    top: 7px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 20px solid black;
+}
+
+.mine:after {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 20px solid black;
+    position: absolute;
+    content: "";
+    top: 13px;
+    left: 10px;
+}
+
+.explosion {
+    height: 40px;
+    width: 40px;
+    border: 1px double #000000;
+    background-color: firebrick;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: inset rgba(0, 0, 0, .6) 0 -3px 8px,
+    inset rgba(252, 255, 255, .7) 0 3px 8px,
+    rgba(0, 0, 0, .8) 0 3px 8px -3px;
+}
+
+.explosion:before {
+    content: '';
+    position: absolute;
+    left: 10px;
+    top: 7px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 20px solid black;
+}
+
+.explosion:after {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 20px solid black;
+    position: absolute;
+    content: "";
+    top: 13px;
+    left: 10px;
+}
+
+.text {
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 6px;
+}
+
+.text8 {
+    color: purple;
+}
+
+.text7 {
+    color: #CD0074;
+}
+
+.text6 {
+    color: #FF0000;
+}
+
+.text5 {
+    color: #FF7400;
+}
+
+.text4 {
+    color: #FFAA00;
+}
+.text3 {
+    color: #FFD300;
+}
+.text2 {
+    color: #FFFF00;
+}
+.text1 {
+    color: #9FEE00;
+}

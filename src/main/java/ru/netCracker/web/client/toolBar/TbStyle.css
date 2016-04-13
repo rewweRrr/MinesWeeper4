@@ -1,0 +1,15 @@
+body {
+    margin: 20px;
+}
+
+.HorizontalPanel {
+    height: 80px;
+    width: 400px;
+    padding: 10px;
+}
+
+.VerticalPanel {
+    height: 80px;
+    width: 100px;
+    padding: 10px;
+}

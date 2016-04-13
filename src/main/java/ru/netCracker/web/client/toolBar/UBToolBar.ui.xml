@@ -1,0 +1,20 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:g='urn:import:com.google.gwt.user.client.ui'>
+    <ui:style src="TbStyle.css"/>
+    <g:HorizontalPanel ui:field="headPanel" addStyleNames="{style.HorizontalPanel}">
+        <g:Button ui:field="playBtn" text="Play!"/>
+        <g:VerticalPanel addStyleNames="{style.VerticalPanel}">
+            <g:HorizontalPanel>
+                <g:Label text="Time: "/>
+                <g:Label ui:field="timeLabel"/>
+            </g:HorizontalPanel>
+            <g:HorizontalPanel>
+                <g:Label text="mines: "/>
+                <g:Label ui:field="minesNumberLabel"/>
+            </g:HorizontalPanel>
+        </g:VerticalPanel>
+        <g:RadioButton name="optionBtn" ui:field="easyBtn" text="easy" value="true"/>
+        <g:RadioButton name="optionBtn" ui:field="mediumBtn" text="medium"/>
+        <g:RadioButton name="optionBtn" ui:field="hardBtn" text="hard"/>
+    </g:HorizontalPanel>
+</ui:UiBinder>

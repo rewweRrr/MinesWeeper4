@@ -1,0 +1,8 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:g='urn:import:com.google.gwt.user.client.ui'>
+    <ui:style src="FieldStyle.css"/>
+    <g:FlowPanel ui:field="field" addStyleNames="{style.myFlowPanel}">
+        <!--<g:Image ui:field="img"/>-->
+        <g:Label ui:field="state" addStyleNames="{style.text}"/>
+    </g:FlowPanel>
+</ui:UiBinder>

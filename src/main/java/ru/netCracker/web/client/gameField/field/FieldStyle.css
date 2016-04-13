@@ -1,0 +1,16 @@
+body {
+    margin: 20px;
+}
+
+.myFlowPanel {
+    height: 40px;
+    width: 40px;
+    border: 1px double #000000;
+}
+
+.text {
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 4px;
+}

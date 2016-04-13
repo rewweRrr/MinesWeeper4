@@ -1,0 +1,9 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:g='urn:import:com.google.gwt.user.client.ui'
+             xmlns:tb='urn:import:ru.netCracker.web.client.toolBar'
+             xmlns:gf='urn:import:ru.netCracker.web.client.gameField'>
+    <g:FlowPanel>
+        <tb:UBToolBar/>
+        <gf:GameField/>
+    </g:FlowPanel>
+</ui:UiBinder>
